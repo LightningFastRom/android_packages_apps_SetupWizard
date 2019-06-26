@@ -1,1 +1,2 @@
-values-v1
+*.RIFBackup.*
+*.DS_Store

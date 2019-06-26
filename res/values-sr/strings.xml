@@ -3,6 +3,7 @@
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
      Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017 The LightningFastRom Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -56,12 +57,12 @@
     <string name="yes">Да</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> — <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Хитан позив</string>
-    <string name="setup_services">Функције LineageOS-а</string>
-    <string name="services_explanation" product="tablet">Ове услуге проширују могућности вашег таблета. Подаци ће бити коришћени у складу са <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LineageOS-а.</string>
-    <string name="services_explanation" product="default">Ове услуге проширују могућности вашег телефона. Подаци ће бити коришћени у складу са <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LineageOS-а.</string>
+    <string name="setup_services">Функције LightningFastRom-а</string>
+    <string name="services_explanation" product="tablet">Ове услуге проширују могућности вашег таблета. Подаци ће бити коришћени у складу са <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LightningFastRom-а.</string>
+    <string name="services_explanation" product="default">Ове услуге проширују могућности вашег телефона. Подаци ће бити коришћени у складу са <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LightningFastRom-а.</string>
     <string name="services_privacy_policy">политиком приватности</string>
     <string name="services_help_improve_cm">Помозите нам да побољшамо <xliff:g id="name" example="CyanogenMod">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CyanogenMod">%1$s</xliff:g> слањем дијагностичких података LineageOS-у. Ове информације вас не могу идентификовати и користе се у циљу побољшања трајања батерије, перформанси и додавања нових могућности у <xliff:g id="name" example="CyanogenMod">%2$s</xliff:g>.</string>
+    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CyanogenMod">%1$s</xliff:g> слањем дијагностичких података LightningFastRom-у. Ове информације вас не могу идентификовати и користе се у циљу побољшања трајања батерије, перформанси и додавања нових могућности у <xliff:g id="name" example="CyanogenMod">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>Користите навигациону дугмад на екрану</b> уместо хардверску.</string>
     <string name="services_os_privacy_guard"><b>Омогућите заштиту приватности</b> да бисте новим апликацијама ограничили приступ вашим личним подацима — контактима, порукама или евиденцији позива.</string>
     <string name="setup_unlock">Откључај</string>
