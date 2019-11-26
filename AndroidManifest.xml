@@ -66,8 +66,8 @@
                   android:enabled="false"
                   android:exported="false"
                   android:excludeFromRecents="true"
-                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize"
-                  android:immersive="true">
+                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|uiMode"
+                  android:immersive="true"> 
             <intent-filter>
                 <action android:name="com.android.wizard.LOAD" />
                 <action android:name="com.android.wizard.NEXT" />
@@ -80,7 +80,7 @@
                   android:lockTaskMode="normal"
                   android:launchMode="singleTask"
                   android:excludeFromRecents="true"
-                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize"
+                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|uiMode"
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden"
                   android:theme="@style/NoDisplay">
@@ -270,7 +270,7 @@
         </activity>
 
         <activity android:name=".SetupWizardExitActivity"
-                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize"
+                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|uiMode"
                   android:excludeFromRecents="true"
                   android:immersive="true"
                   android:label="@@string/activity_label_empty"
@@ -282,7 +282,7 @@
         </activity>
 
         <activity android:name=".SetupWizardTestActivity"
-                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize"
+                  android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|uiMode"
                   android:exported="false"
                   android:immersive="true"
                   android:label="@string/activity_label_empty"
