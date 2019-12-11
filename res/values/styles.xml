@@ -26,7 +26,7 @@
         <item name="android:textColorLink">@color/accent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/ActivityAnimations</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="localePickerStyle">@style/LocaleWidget.Material.LocalePicker</item>
     </style>
 
@@ -78,6 +78,8 @@
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:drawablePadding">6dp</item>
         <item name="android:ellipsize">end</item>
+		<item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
     </style>
 
     <style name="ButtonBar.Left">
