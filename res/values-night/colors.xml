@@ -17,10 +17,10 @@
 -->
 <resources>
     <color name="black">#ffffff</color>
-    <color name="white">#21272b</color>
-    <color name="page_background">#e4e7e9</color>
+    <color name="white">#212121</color>
+    <color name="page_background">#212121</color>
 
-    <color name="primary">#c2c5c7</color>
+    <color name="primary">#212121</color>
     <color name="primary_dark">@color/page_background</color>
     <color name="accent">#167C80</color>
     <color name="primary_text">#8a000000</color>
