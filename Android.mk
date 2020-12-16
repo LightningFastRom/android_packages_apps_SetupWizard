@@ -20,6 +20,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     setupdesign
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
+    androidx-constraintlayout_constraintlayout \
     libphonenumber \
     org.lineageos.platform.internal
 
