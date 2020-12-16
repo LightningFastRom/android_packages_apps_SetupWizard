@@ -24,14 +24,12 @@
     android:orientation="vertical"
     android:background="@color/primary">
 
-    <ImageView
+    <include
         android:id="@+id/brand_logo"
         android:layout_width="match_parent"
-        android:layout_height="0px"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:src="@drawable/logo"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
+        layout="@layout/logo_controller_layout"
         android:gravity="center"
         android:padding="@dimen/content_margin_left"/>
 
