@@ -16,8 +16,9 @@
      limitations under the License.
 -->
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,18 +26,25 @@
     android:background="@color/primary">
 
     <include
-        android:id="@+id/brand_logo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        layout="@layout/logo_controller_layout"
-        android:gravity="center"
-        android:padding="@dimen/content_margin_left"/>
+		android:id="@+id/brand_logo"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/rom_logo_size"
+		android:layout_gravity="center"
+		android:layout_marginLeft="@dimen/content_margin_left"
+		layout="@layout/logo_controller_layout"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBottom_toTopOf="@+id/navigation_bar" />
 
-    <com.google.android.setupdesign.view.NavigationBar
-        android:id="@+id/navigation_bar"
-        style="@style/SudNavBarTheme"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/sud_navbar_height" />
+	<com.google.android.setupdesign.view.NavigationBar
+		android:id="@+id/navigation_bar"
+		style="@style/SudNavBarTheme"
+		android:layout_gravity="bottom"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/sud_navbar_height"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

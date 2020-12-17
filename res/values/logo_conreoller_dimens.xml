@@ -15,6 +15,9 @@
 -->
 
 <resources>
+    <dimen name="rom_logo_size">250dp</dimen>
     <dimen name="rom_name_font_size">25sp</dimen>
-    <dimen name="rom_slogan_font_size">16sp</dimen>
+    <dimen name="rom_slogan_font_size">57sp</dimen>
+	<dimen name="rom_logo_content_margin_left">57sp</dimen>
+	
 </resources>
